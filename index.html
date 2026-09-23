@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3F12ART</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">宜比一畫 畫面很有事</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">關於愛畫畫的朋友們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">快樂記憶</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">給未來的你</a> -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            精選相簿
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">卡通人物臨摹</a></li>
+                            <li><a class="dropdown-item" href="#">自我創作插畫</a></li>
+                            <li><a class="dropdown-item" href="#">生活小繪圖</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 輪播 -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <!-- 指引器 -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- 第一張圖 -->
+            <div class="carousel-item active">
+                <img src="./images/photo1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>馬力歐兄弟</h5>
+                    <p>給我吃菇菇</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- 第二章圖 -->
+                <img src="./images/photo2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>小象</h5>
+                    <p>媽媽說鼻子長才是漂亮</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- 第三張圖 -->
+                <img src="./images/photo3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>小熊維尼</h5>
+                    <p>麥當勞都是維尼</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- 訊息列 -->
+    <div class="alert mt-3 mx-3 alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+    <div class="alert mt-3 mx-3 alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+    <div class="alert mt-3 mx-3 alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+
+    <!-- 卡片元件 -->
+     <!-- 加上一個外框，處理左右邊界 -->
+     <div class="mx-3">
+        <!-- 加上一列 -->
+    <div class="row">
+        <!-- 每張卡片獨立一欄，加上 md-3 與 sm-6 與下邊界 mb-3 -->
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card" style="">
+                <img src="./images/photo4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card" style="">
+                <img src="./images/photo6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card" style="">
+                <img src="./images/photo7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card" style="">
+                <img src="./images/photo5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 版權聲名 -->
+    <!-- 水平線 -->
+    <footer class="mx-3">
+        <hr>
+        <p class="float-start">
+        &copy;2026.09 WungFamily
+        <a href="#">隱私權</a>
+        <a href="#">聯絡我們</a>
+        </p>
+        <p class="float-end">
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+    <script src="./js/bootstrap.js"></script>
+
+</body>
+
+</html>
